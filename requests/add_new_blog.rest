@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ind1YmJhIiwiaWQiOiI2NDA5NWQxNjg0NzM2Y2UyZWVhMzhiZmQiLCJpYXQiOjE2NzgzMzcxNTd9.GjfQFfm1-CFDgSAQJXBVu8-kXAhnTcVsM4LE11REwNA
+
+{
+    "title": "what",
+    "author": "lol",
+    "url": "lol",
+    "likes": 12,
+    "userId": "64095d1684736ce2eea38bfd"
+}
